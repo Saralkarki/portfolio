@@ -1,0 +1,218 @@
+body
+{
+  margin: 0px;
+  
+}
+#welcome-section 
+{
+  background: #3AAFA9;
+  height: 100vh;
+}
+#navbar
+{
+/*   background: red; */
+  position: fixed;
+  z-index: 10;
+  background: #3AAFA9; 
+/*   padding: 2px; */
+}
+ul
+{
+  list-style-type:none;
+/*   display: inline-block; */
+}
+#nav-li
+{
+  padding: 20px;  
+  display: inline-block;
+  float: right;  
+}
+
+#nav-link
+{
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: none;
+  color: #F7B733;
+  cursor: pointer;
+  font-weight: bold;
+}
+#profile-link
+{
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: none;
+  color: #F7B733;
+  cursor: pointer;
+   font-weight: bold;
+}
+#content
+{    
+  height: 40%;
+/*   background: #ffccdd; */
+  margin-top: 100px;
+  width: auto;
+  padding: 30px;
+  font-family: Montserrat;
+  
+}
+
+.name
+{
+  font-size: 80px;   
+  font-family: Montserrat;
+  color: #FEFFFF;
+}
+
+  
+}
+
+#projects
+{
+  height: 100vh;
+  
+}
+.project-title{
+  padding-top: 10px; 
+  font-family: helvetica;  
+  height: 100px;
+/*   background:white; */
+  width: 100%;
+  text-align: center;
+  font-size:60px;
+}
+/* .proj
+{
+  height: 300px;
+  margin-left:60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+  text-align: center;  
+  font-size:40px;
+    font-family: Montserrat;
+  color: red;
+  display: inline-block;
+ 
+} */
+/* .project
+{
+  margin: 10px;
+  height: 310px;
+  width: 310px;
+} */
+#project-link
+{
+/*   background: red; */
+  margin-left: -15px;
+  padding: 20px;
+ 
+  text-align:center;
+ 
+}
+#project_link
+{
+  
+  font-size:20px;
+  font-family: Montserrat;
+  color:red;
+  display:inline-block;
+  text-align: center;
+    
+}
+#proj_1
+{ 
+  color:red;
+  height:80%;
+  width: 80%;
+}
+
+#proj_2
+{
+   height:80%;
+  width: 80%;
+}
+#proj_3
+{  
+   height: 80%;
+  width:80%;
+}
+#proj_4
+{
+   height: 80%;
+  width: 80%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;    
+    bottom: 0;
+    width: 100%;
+    height:6vh;
+/*   background-color: red; */
+    background-color: #3AAFA9;
+    color: white;
+    text-align: center;
+    padding-bottom:4px;
+  padding-right:4px;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+  #nav-li
+{
+  padding: 10px;  
+  display: inline-block;
+  float: right;  
+}
+  #content
+{    
+  height: 80%;
+/*   background: #ffccdd; */
+  margin-top: 100px;
+  width: auto;
+  padding: 10px;
+  font-family: Montserrat;
+  
+}
+  .name{
+    font-size:80px;
+  }
+ 
+
+ 
+}
+@media only screen and (max-width: 340px)
+{
+  body {
+        background-color: lightblue;
+    }  
+  #nav-li
+{
+  padding: 5px;  
+  display: inline-block;
+  float: right;  
+}
+  .name{
+    font-size:60px;
+  }
+  #nav-link{
+    font-size:14px;
+    
+  }
+  #profile-link
+  {
+    font-size:14px;
+}
+  #footer
+  {
+    padding-bottom: 10px;
+  }
+
+}
+
+
+
+
